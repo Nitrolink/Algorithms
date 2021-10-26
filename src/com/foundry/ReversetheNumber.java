@@ -11,10 +11,6 @@ public class ReversetheNumber {
             temp[j] = stringify[i-1];
             j++;
         }
-        String finalStr = "";
-        for(String s : temp){
-            finalStr=finalStr.concat(s);
-        }
-        return finalStr;
+        return String.join("",temp);
     }
 }
