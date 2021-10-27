@@ -5,7 +5,10 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("\n----------------------------------");
 	     int vowelsTest1 = HowManyVowels.getCount("Password");
+	     int vowelsTest2 = HowManyVowels.getCount("Arrays");
 	     Tester.assertEquals("Vowel Count",1,2, vowelsTest1);
+        Tester.assertEquals("Vowel Count",2,2, vowelsTest2);
+
 
 
 

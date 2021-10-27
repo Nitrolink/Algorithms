@@ -2,6 +2,7 @@ package com.foundry;
 
 public class VideoLength {
     //https://edabit.com/challenge/9D39q2q9yAFCDM9da
+
     public static int minutesToSeconds(String tm) {
         String[] strSplit = tm.split(":");
         if(Integer.parseInt(strSplit[1]) >= 60){
