@@ -1,5 +1,6 @@
 package com.foundry;
 
+
 public class Tester {
     public static void assertEquals(String test,int testNum, Object expected,Object result){
         System.out.println(test + " Test "+ testNum + " Starting");
