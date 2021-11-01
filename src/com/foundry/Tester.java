@@ -1,6 +1,7 @@
 package com.foundry;
 
 
+import java.util.Arrays;
 import java.util.Objects;
 
 public class Tester {
@@ -18,5 +19,17 @@ public class Tester {
         System.out.println("----------------------------------");
     }
 
+    public static void arrayEquals(String test,int testNum, int[] expected,int[] result){
 
+        System.out.println(test + " Test "+ testNum + " Starting");
+        System.out.println("Expecting: Type-" + expected.getClass().getSimpleName() + " Value:"+ Arrays.toString(expected));
+        System.out.println("Result: Type-" + result.getClass().getSimpleName() + " Value:"+ Arrays.toString(result));
+        if(Arrays.equals(result, expected)){
+            System.out.println("Passed");
+        }
+        else{
+            System.out.println("Failed");
+        }
+        System.out.println("----------------------------------");
+    }
 }

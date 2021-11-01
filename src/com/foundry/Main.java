@@ -45,15 +45,32 @@ public class Main {
         int[] sortNumbersTest2 = SortNumbers.sortNumsAscending(input2);
         Arrays.sort(input1);
         Arrays.sort(input2);
-        Tester.assertEquals("Sort Numbers",1,input1,sortNumbersTest1);
-        Tester.assertEquals("Sort Numbers",1,input2,sortNumbersTest2);
+        Tester.arrayEquals("Sort Numbers",1,input1,sortNumbersTest1);
+        Tester.arrayEquals("Sort Numbers",1,input2,sortNumbersTest2);
 
 
     }
 
     public static void algorithmSetThree() {
         int[] algorithmTest1 = ArrayofMultiples.arrayOfMultiples(7,5);
-        System.out.println(Arrays.toString(algorithmTest1));
+        int[] algorithmTest2 = ArrayofMultiples.arrayOfMultiples(4,0);
+        int[] algorithmTest3 = ArrayofMultiples.arrayOfMultiples(0,3);
+        int[] algoritmOutput1 = new int[] {7,14,21,28,35};
+        int[] algoritmOutput2 = new int[0];
+        int[] algoritmOutput3 = new int[] {0,0,0};
+        Tester.arrayEquals("Array of Multiples",1,algoritmOutput1,algorithmTest1);
+        Tester.arrayEquals("Array of Multiples",2,algoritmOutput2,algorithmTest2);
+        Tester.arrayEquals("Array of Multiples",3,algoritmOutput3,algorithmTest3);
+
+        String rpsTest1 = RockPaperScissors.rps("ROCK", "paper");
+        String rpsTest2 = RockPaperScissors.rps("Scissors", "SciSsors");
+        String rpsTest3 = RockPaperScissors.rps("Paper", "roCk");
+        String rpsTest4 = RockPaperScissors.rps("ashduijqagbw", "paper");
+        Tester.assertEquals("Rock,Paper,Scissors",1,"Player 2 wins",rpsTest1);
+        Tester.assertEquals("Rock,Paper,Scissors",2,"TIE",rpsTest2);
+        Tester.assertEquals("Rock,Paper,Scissors",3,"Player 1 wins",rpsTest3);
+        Tester.assertEquals("Rock,Paper,Scissors",4,"Incorrect Input",rpsTest4);
+
     }
 
 
