@@ -51,10 +51,16 @@ public class Main {
 
     }
 
+    public static void algorithmSetThree() {
+        int[] algorithmTest1 = ArrayofMultiples.arrayOfMultiples(7,5);
+        System.out.println(Arrays.toString(algorithmTest1));
+    }
+
 
     public static void main(String[] args) {
         //algorithmSetOne();
-        algorithmSetTwo();
+        //algorithmSetTwo();
+        algorithmSetThree();
     }
 
 
