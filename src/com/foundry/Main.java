@@ -94,7 +94,32 @@ public class Main {
 
     }
 
+    public static void algorithmSetFour(){
+        System.out.println("\n----------------------------------\nFourth Set\n");
+        boolean capRookTest1 = CaptureTheRook.canCapture(new String[]{"A8","A2"});
+        boolean capRookTest2 = CaptureTheRook.canCapture(new String[]{"B5","C7"});
+        boolean capRookTest3 = CaptureTheRook.canCapture(new String[]{"C3","B3"});
+        Tester.assertEquals("Capture the Rook", 1,true,capRookTest1);
+        Tester.assertEquals("Capture the Rook", 2,false,capRookTest2);
+        Tester.assertEquals("Capture the Rook", 3,true,capRookTest3);
 
+        boolean disariumNumTest1 = DisariumNumber.isDisarium(75);
+        boolean disariumNumTest2 = DisariumNumber.isDisarium(135);
+        boolean disariumNumTest3 = DisariumNumber.isDisarium(518);
+        boolean disariumNumTest4 = DisariumNumber.isDisarium(466);
+        Tester.assertEquals("Disarium Number", 1,false,disariumNumTest1);
+        Tester.assertEquals("Disarium Number", 2,true,disariumNumTest2);
+        Tester.assertEquals("Disarium Number", 3,true,disariumNumTest3);
+        Tester.assertEquals("Disarium Number", 4,false,disariumNumTest4);
+
+        int largestGap1 = LargestGap.largestGap(new int[]{9, 4, 26, 26, 0, 0, 5, 20, 6, 25, 5}); //11
+        int largestGap2 = LargestGap.largestGap(new int[]{14, 13, 7, 1, 4, 12, 3, 7, 7, 12, 11, 5, 7}); //4
+        int largestGap3 = LargestGap.largestGap(new int[]{13, 3, 8, 5, 5, 2, 13, 6, 14, 2, 11, 4, 10, 8, 1, 9}); //2
+        Tester.assertEquals("Largest Gap",1,11,largestGap1);
+        Tester.assertEquals("Largest Gap",2,4,largestGap2);
+        Tester.assertEquals("Largest Gap",3,2,largestGap3);
+
+    }
 
 
     public static void main(String[] args) {
@@ -102,7 +127,7 @@ public class Main {
         //algorithmSetOne();
         //algorithmSetTwo();
         //algorithmSetThree();
-
+        algorithmSetFour();
     }
 
 
