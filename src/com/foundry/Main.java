@@ -4,6 +4,27 @@ import java.util.Arrays;
 
 public class Main {
 
+    public static void hotseatTest(){
+        System.out.println("\n----------------------------------\nHotseat Test\n");
+        int[] input1 = new int[] {1, 2, 10, 50, 5};
+        int[] input2 = new int[] {80, 29, 4, -95, -24, 85};
+        int[] input3 = new int[] {};
+        int[] input4 = null;
+
+        int[] sortNumbersTest1 = HotSeat.sortNumsAscending(input1);
+        int[] sortNumbersTest2 = HotSeat.sortNumsAscending(input2);
+        int[] sortNumbersTest3 = HotSeat.sortNumsAscending(input3);
+        int[] sortNumbersTest4 = HotSeat.sortNumsAscending(input4);
+
+        Arrays.sort(input1);
+        Arrays.sort(input2);
+
+        Tester.arrayEquals("Sort Numbers",1,input1,sortNumbersTest1);
+        Tester.arrayEquals("Sort Numbers",2,input2,sortNumbersTest2);
+        Tester.arrayEquals("Sort Numbers",3,new int[0],sortNumbersTest3);
+        Tester.arrayEquals("Sort Numbers",4,new int[0],sortNumbersTest4);
+    }
+
     public static void algorithmSetOne(){
         System.out.println("\n----------------------------------\nFirst Set\n");
 
@@ -20,7 +41,6 @@ public class Main {
         Tester.assertEquals("Video Length Converter",1,1941, minuteToSecondTest1);
         Tester.assertEquals("Video Length Converter",2,-1, minuteToSecondTest2);
     }
-
 
     public static void algorithmSetTwo() {
         System.out.println("\n----------------------------------\nSecond Set\n");
@@ -52,6 +72,7 @@ public class Main {
     }
 
     public static void algorithmSetThree() {
+        System.out.println("\n----------------------------------\nThird Set\n");
         int[] algorithmTest1 = ArrayofMultiples.arrayOfMultiples(7,5);
         int[] algorithmTest2 = ArrayofMultiples.arrayOfMultiples(4,0);
         int[] algorithmTest3 = ArrayofMultiples.arrayOfMultiples(0,3);
@@ -74,10 +95,14 @@ public class Main {
     }
 
 
+
+
     public static void main(String[] args) {
+        //hotseatTest();
         //algorithmSetOne();
         //algorithmSetTwo();
-        algorithmSetThree();
+        //algorithmSetThree();
+
     }
 
 

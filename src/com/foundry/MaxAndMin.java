@@ -17,6 +17,5 @@ public class MaxAndMin {
             }
         }
         return max - min;
-
     }
 }
