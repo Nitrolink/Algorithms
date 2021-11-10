@@ -122,7 +122,29 @@ public class Main {
     }
 
     public static void algorithmSetFive(){
+        System.out.println("\n----------------------------------\nFifth Set\n");
+        int highestDigitTest1 = HighestDigit.highestDigit(4666);
+        int highestDigitTest2 = HighestDigit.highestDigit(544);
+        int highestDigitTest3 = HighestDigit.highestDigit(379);
+        int highestDigitTest4 = HighestDigit.highestDigit(2);
+        int highestDigitTest5 = HighestDigit.highestDigit(377401);
+        Tester.assertEquals("Highest Digit", 1,6,highestDigitTest1);
+        Tester.assertEquals("Highest Digit", 2,5,highestDigitTest2);
+        Tester.assertEquals("Highest Digit", 3,9,highestDigitTest3);
+        Tester.assertEquals("Highest Digit", 4,2,highestDigitTest4);
+        Tester.assertEquals("Highest Digit", 5,7,highestDigitTest5);
 
+        String noYellingTest1 = NoYelling.noYelling("What went wrong?????????");
+        String noYellingTest2 = NoYelling.noYelling("Oh my goodness!!!");
+        String noYellingTest3 = NoYelling.noYelling("I just!!! can!!! not!!! believe!!! it!!!");
+        String noYellingTest4 = NoYelling.noYelling("Oh my goodness!");
+        String noYellingTest5 = NoYelling.noYelling("I just cannot believe it.");
+
+        Tester.assertEquals("No Yelling", 1,"What went wrong?",noYellingTest1);
+        Tester.assertEquals("No Yelling", 2,"Oh my goodness!",noYellingTest2);
+        Tester.assertEquals("No Yelling", 3,"I just!!! can!!! not!!! believe!!! it!",noYellingTest3);
+        Tester.assertEquals("No Yelling", 4,"Oh my goodness!",noYellingTest4);
+        Tester.assertEquals("No Yelling", 5,"I just cannot believe it.",noYellingTest5);
     }
 
 
