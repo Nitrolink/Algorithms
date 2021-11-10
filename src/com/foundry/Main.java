@@ -121,13 +121,18 @@ public class Main {
 
     }
 
+    public static void algorithmSetFive(){
+
+    }
+
 
     public static void main(String[] args) {
         //hotseatTest();
         //algorithmSetOne();
         //algorithmSetTwo();
         //algorithmSetThree();
-        algorithmSetFour();
+        //algorithmSetFour();
+        algorithmSetFive();
     }
 
 
