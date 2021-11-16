@@ -1,5 +1,12 @@
 package com.foundry;
 
+import com.foundry.AlgorithmSet1.*;
+import com.foundry.AlgorithmSet2.*;
+import com.foundry.AlgorithmSet3.*;
+import com.foundry.AlgorithmSet4.*;
+import com.foundry.AlgorithmSet5.*;
+import com.foundry.AlgorithmSet6.*;
+
 import java.util.Arrays;
 
 public class Main {
@@ -147,6 +154,9 @@ public class Main {
         Tester.assertEquals("No Yelling", 5,"I just cannot believe it.",noYellingTest5);
     }
 
+    public static void algorithmSetSix(){
+
+    }
 
     public static void main(String[] args) {
         //hotseatTest();
@@ -154,7 +164,7 @@ public class Main {
         //algorithmSetTwo();
         //algorithmSetThree();
         //algorithmSetFour();
-        algorithmSetFive();
+        //algorithmSetFive();
     }
 
 

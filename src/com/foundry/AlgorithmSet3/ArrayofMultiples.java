@@ -1,4 +1,4 @@
-package com.foundry;
+package com.foundry.AlgorithmSet3;
 
 public class ArrayofMultiples {
     //https://edabit.com/challenge/rzpucPyoyEtXPo2BG

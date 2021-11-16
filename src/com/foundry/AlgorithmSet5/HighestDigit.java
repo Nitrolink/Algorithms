@@ -1,4 +1,4 @@
-package com.foundry;
+package com.foundry.AlgorithmSet5;
 
 public class HighestDigit {
     //https://edabit.com/challenge/9X8zLpBEcQsyerPgL
