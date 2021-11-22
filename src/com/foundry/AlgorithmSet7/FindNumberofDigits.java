@@ -6,18 +6,12 @@ public class FindNumberofDigits {
         return String.valueOf(num).length();
     }
     public static int numOfDigitsNoStrings(int num) {
-        int count = 0;
-        if(num == 0){
-            count = 1;
+        if (num == 0){
+            return 1;
         }
-        while (num != 0){
-            num /= 10;
-            count++;
+        else{
+           return (int) (Math.log10(num) + 1);
         }
-        return count;
-    }
 
-    public static void main(String[] args) {
-        System.out.println(numOfDigitsNoStrings(0));
     }
 }
