@@ -5,5 +5,19 @@ public class FindNumberofDigits {
     public static int numOfDigits(int num) {
         return String.valueOf(num).length();
     }
+    public static int numOfDigitsNoStrings(int num) {
+        int count = 0;
+        if(num == 0){
+            count = 1;
+        }
+        while (num != 0){
+            num /= 10;
+            count++;
+        }
+        return count;
+    }
 
+    public static void main(String[] args) {
+        System.out.println(numOfDigitsNoStrings(0));
+    }
 }
