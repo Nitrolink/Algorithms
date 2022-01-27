@@ -1,4 +1,4 @@
-package com.foundry.AlgorithmSet2;
+package com.foundry.Intermediate.AlgorithmSet2;
 
 public class MaxAndMin {
     //https://edabit.com/challenge/hymPkXdhmDQLe87QT

@@ -1,4 +1,4 @@
-package com.foundry.AlgorithmSet3;
+package com.foundry.Intermediate.AlgorithmSet3;
 
 public class RockPaperScissors {
     //https://edabit.com/challenge/3S8XppR6Yf5mXPxij

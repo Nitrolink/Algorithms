@@ -1,4 +1,4 @@
-package com.foundry.AlgorithmSet2;
+package com.foundry.Intermediate.AlgorithmSet2;
 
 public class SortNumbers {
     //https://edabit.com/challenge/WM5s7vuHnXdcKCEjS

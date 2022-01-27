@@ -1,4 +1,4 @@
-package com.foundry.AlgorithmSet1;
+package com.foundry.Intermediate.AlgorithmSet1;
 
 public class VideoLength {
     //https://edabit.com/challenge/9D39q2q9yAFCDM9da

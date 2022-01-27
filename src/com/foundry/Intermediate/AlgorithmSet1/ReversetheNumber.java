@@ -1,4 +1,4 @@
-package com.foundry.AlgorithmSet1;
+package com.foundry.Intermediate.AlgorithmSet1;
 
 public class ReversetheNumber {
     //https://edabit.com/challenge/tiyPFonvAJ8e6H9jS

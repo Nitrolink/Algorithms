@@ -1,4 +1,4 @@
-package com.foundry.AlgorithmSet2;
+package com.foundry.Intermediate.AlgorithmSet2;
 
 import java.util.Objects;
 

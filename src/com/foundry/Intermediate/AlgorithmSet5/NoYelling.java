@@ -1,6 +1,4 @@
-package com.foundry.AlgorithmSet5;
-
-import java.util.Arrays;
+package com.foundry.Intermediate.AlgorithmSet5;
 
 public class NoYelling {
     //https://edabit.com/challenge/33tRK98geLPcf73PF

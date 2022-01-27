@@ -1,4 +1,4 @@
-package com.foundry.AlgorithmSet4;
+package com.foundry.Intermediate.AlgorithmSet4;
 
 import java.util.Arrays;
 

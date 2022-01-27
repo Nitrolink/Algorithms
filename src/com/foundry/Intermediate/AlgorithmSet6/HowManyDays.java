@@ -1,4 +1,4 @@
-package com.foundry.AlgorithmSet6;
+package com.foundry.Intermediate.AlgorithmSet6;
 
 
 

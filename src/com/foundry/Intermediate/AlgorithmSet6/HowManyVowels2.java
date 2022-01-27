@@ -1,4 +1,4 @@
-package com.foundry.AlgorithmSet6;
+package com.foundry.Intermediate.AlgorithmSet6;
 
 public class HowManyVowels2 {
     //https://edabit.com/challenge/GBKphScsmDi9ek3ra

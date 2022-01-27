@@ -1,4 +1,4 @@
-package com.foundry;
+package com.foundry.Intermediate;
 
 import java.util.Arrays;
 
