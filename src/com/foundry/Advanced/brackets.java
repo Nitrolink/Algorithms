@@ -10,7 +10,7 @@ public class brackets {
             if(s.charAt(i) == '{' || s.charAt(i) == '[' ||s.charAt(i) == '('){
                 myStack.push(s.charAt(i));
             }
-            else {
+            if(myStack.isEmpty()){
                 return "NO";
             }
             char c;
