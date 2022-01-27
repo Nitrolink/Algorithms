@@ -10,10 +10,10 @@ public class brackets {
             if(s.charAt(i) == '{' || s.charAt(i) == '[' ||s.charAt(i) == '('){
                 myStack.push(s.charAt(i));
             }
-            char c;
-            if(myStack.isEmpty()){
+            else {
                 return "NO";
             }
+            char c;
             switch (s.charAt(i)) {
                 case ')' -> {
                     c = myStack.pop();
