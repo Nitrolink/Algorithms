@@ -1,4 +1,4 @@
-package com.foundry;
+package com.foundry.Intermediate;
 
 import com.foundry.Intermediate.AlgorithmSet1.*;
 import com.foundry.Intermediate.AlgorithmSet2.*;
@@ -6,12 +6,13 @@ import com.foundry.Intermediate.AlgorithmSet3.*;
 import com.foundry.Intermediate.AlgorithmSet4.*;
 import com.foundry.Intermediate.AlgorithmSet5.*;
 import com.foundry.Intermediate.HotSeat;
+import com.foundry.Tester;
 
 import java.util.Arrays;
 
 public class Main {
 
-    public static void hotseatTestA(){
+    public static void hotseatTest(){
         System.out.println("\n----------------------------------\nHotseat Test\n");
         int[] input1 = new int[] {1, 2, 10, 50, 5};
         int[] input2 = new int[] {80, 29, 4, -95, -24, 85};
@@ -32,7 +33,7 @@ public class Main {
         Tester.arrayEquals("Sort Numbers",4,new int[0],sortNumbersTest4);
     }
 
-    public static void algorithmSetOneA(){
+    public static void algorithmSetOne(){
         System.out.println("\n----------------------------------\nFirst Set\n");
 
         int vowelsTest1 = HowManyVowels.getCount("Password");
@@ -49,7 +50,7 @@ public class Main {
         Tester.assertEquals("Video Length Converter",2,-1, minuteToSecondTest2);
     }
 
-    public static void algorithmSetTwoA() {
+    public static void algorithmSetTwo() {
         System.out.println("\n----------------------------------\nSecond Set\n");
         int maxMinTest1 = MaxAndMin.differenceMaxMin(new int[] {6,8,3,21,7,3,9,0,-21,12});
         int maxMinTest2 = MaxAndMin.differenceMaxMin(new int[] {9,8,7,6,5,4,3,2,1,8,6,4,2,8,0,4,10});
@@ -78,7 +79,7 @@ public class Main {
 
     }
 
-    public static void algorithmSetThreeA() {
+    public static void algorithmSetThree() {
         System.out.println("\n----------------------------------\nThird Set\n");
         int[] algorithmTest1 = ArrayofMultiples.arrayOfMultiples(7,5);
         int[] algorithmTest2 = ArrayofMultiples.arrayOfMultiples(4,0);
@@ -101,7 +102,7 @@ public class Main {
 
     }
 
-    public static void algorithmSetFourA(){
+    public static void algorithmSetFour(){
         System.out.println("\n----------------------------------\nFourth Set\n");
         boolean capRookTest1 = CaptureTheRook.canCapture(new String[]{"A8","A2"});
         boolean capRookTest2 = CaptureTheRook.canCapture(new String[]{"B5","C7"});
@@ -128,7 +129,7 @@ public class Main {
 
     }
 
-    public static void algorithmSetFiveA(){
+    public static void algorithmSetFive(){
         System.out.println("\n----------------------------------\nFifth Set\n");
         int highestDigitTest1 = HighestDigit.highestDigit(4666);
         int highestDigitTest2 = HighestDigit.highestDigit(544);
@@ -154,19 +155,19 @@ public class Main {
         Tester.assertEquals("No Yelling", 5,"I just cannot believe it.",noYellingTest5);
     }
 
-    public static void algorithmSetSixA(){
+    public static void algorithmSetSix(){
 
 
 
     }
 
     public static void main(String[] args) {
-        //hotseatTestA();
-        //algorithmSetOneA();
-        //algorithmSetTwoA();
-        //algorithmSetThreeA();
-        //algorithmSetFourA();
-        //algorithmSetFiveA();
+        //hotseatTest();
+        //algorithmSetOne();
+        //algorithmSetTwo();
+        //algorithmSetThree();
+        //algorithmSetFour();
+        //algorithmSetFive();
 
 
 
