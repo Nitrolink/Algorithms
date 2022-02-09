@@ -36,52 +36,9 @@ public class Main {
             input3.add(Arrays.asList(799093993, 543648222, 944524289, 814951921, 981087922, 997222915, 506561779, 997697933, 652807674));
             input3.add(Arrays.asList(989362549, 973516812, 891706714, 786904549, 982329176, 376575034, 993535504, 984745483, 777613376));
 
-            List<List<Integer>> input4 = new ArrayList<>();
-            input4.add(Arrays.asList(10000,300,10000));
-            input4.add(Arrays.asList(2,1,2));
-            input4.add(Arrays.asList(3,3,3));
-
-            List<List<Integer>> input5 = new ArrayList<>();
-            input5.add(Arrays.asList(1,3,1));
-
-            List<List<Integer>> input6 = new ArrayList<>();
-            input6.add(Arrays.asList(1,3,1));
-
-            List<List<Integer>> input7 = new ArrayList<>();
-            input7.add(Arrays.asList(1,3,1));
-
-            List<List<Integer>> input8 = new ArrayList<>();
-            input8.add(Arrays.asList(1,3,1));
-
-            List<List<Integer>> input9 = new ArrayList<>();
-            input9.add(Arrays.asList(1,3,1));
-
-            List<List<Integer>> input10 = new ArrayList<>();
-            input10.add(Arrays.asList(1,3,1));
-
-
-
-
-
-            //String containerSort4 = Balls.organizingContainers(input4);
-            //String containerSort5 = Balls.organizingContainers(input5);
-            //String containerSort6 = Balls.organizingContainers(input6);
-            //String containerSort7 = Balls.organizingContainers(input7);
-            //String containerSort8 = Balls.organizingContainers(input8);
-            //String containerSort9 = Balls.organizingContainers(input9);
-            //String containerSort10 = Balls.organizingContainers(input10);
-
-                Tester.assertEquals("Container Sort",1,"Possible",Balls.organizingContainers(input1));
-                Tester.assertEquals("Container Sort",2,"Possible",Balls.organizingContainers(input2));
-                Tester.assertEquals("Container Sort",3,"Possible",Balls.organizingContainers(input3));
-
-            //Tester.assertEquals("Container Sort",4,"Impossible",containerSort4);
-            //Tester.assertEquals("Container Sort",5,"Possible",containerSort5);
-            //Tester.assertEquals("Container Sort",6,"Impossible",containerSort6);
-            //Tester.assertEquals("Container Sort",7,"Possible",containerSort7);
-            //Tester.assertEquals("Container Sort",8,"Possible",containerSort8);
-            //Tester.assertEquals("Container Sort",9,"Possible",containerSort9);
-            //Tester.assertEquals("Container Sort",10,"Possible",containerSort10);
+            Tester.assertEquals("Container Sort",1,"Possible",Balls.organizingContainers(input1));
+            Tester.assertEquals("Container Sort",2,"Possible",Balls.organizingContainers(input2));
+            Tester.assertEquals("Container Sort",3,"Possible",Balls.organizingContainers(input3));
 
         }
 
