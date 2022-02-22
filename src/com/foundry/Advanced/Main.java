@@ -2,6 +2,9 @@ package com.foundry.Advanced;
 
 
 import com.foundry.Advanced.a02_01.Balls;
+import com.foundry.Advanced.a02_15.ListNode;
+import com.foundry.Advanced.a02_15.NodeMaker;
+import com.foundry.Advanced.a02_15.removeKFromList;
 import com.foundry.Tester;
 
 import java.util.ArrayList;
@@ -41,9 +44,19 @@ public class Main {
 
         }
 
+        public static void nodeTest(){
+            ArrayList<Integer> inArr1 = new ArrayList<Integer>(Arrays.asList(3,1,2,3,4,5));
+            ListNode<Integer> input1 = NodeMaker.nodeMaker(inArr1);
+            input1 = removeKFromList.solution(input1,3);
+            ArrayList<Integer> test = NodeMaker.arrayMaker(input1);
+            Object[] expected1 = {1,2,4,5};
+            Object[] actual1 = test.toArray();
 
+            Tester.objArrayEquals("Remove K From List",1,expected1,actual1);
+        }
 
         public static void main(String[] args) {
-                //ballsTest();
+            //ballsTest();
+            nodeTest();
         }
 }
