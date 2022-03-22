@@ -3,7 +3,8 @@ package com.foundry.Advanced.a03_01;
 public class houseRobber {
     int solution(int[] nums) {
         int l = nums.length;
-        switch (l) {
+
+        switch (l) { //If the array is 0-2 houses long returns the largest
             case 0:
                 return 0;
             case 1:
